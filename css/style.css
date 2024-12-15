@@ -1,0 +1,125 @@
+:root{
+    --bg-clr: #1E202B;
+    --main-clr: #009ad8;
+    --text-clr: #bfc1c8;
+}
+/***/***/***//***/***/***//***/***/***//***/***/***//***/***/***/
+/** Main Classes **/
+.roboto-light {
+  font-weight: 300;
+}
+.roboto-regular {
+  font-weight: 400;
+}
+.roboto-medium {
+  font-weight: 500;
+}
+.roboto-bold {
+  font-weight: 700;
+}
+.bg-header-one{
+  background-color: #2D303D;
+}
+.bg-body-one {
+  background-color: #323544;
+}
+.bg-header-two{
+  background-color: #222530;
+}
+.bg-body-two {
+  background-color: #262936;
+}
+.text-clr{
+  color: var(--text-clr);
+}
+.description{
+  color: var(--main-clr);
+  font-size: .75rem;
+}
+.bg-clr{
+  background-color: var(--bg-clr);
+}
+
+/**************************| /\/\ |**************************/
+/** Style Classes **/
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  background-color: var(--bg-clr);
+}
+
+nav a{
+  color: white !important;
+}
+nav .navbar-brand img{
+  width: 4rem;
+  height: 2.375rem;
+  aspect-ratio: auto 64 / 38;
+}
+nav .navbar-brand p{
+  font-size: .66rem;
+}
+nav .nav-item .nav-link{
+  font-size: 1rem !important;
+  padding: .3125rem 1.25rem !important;
+  transition: color 0.5s;
+  margin: 0 .3125rem;
+  box-sizing: border-box;
+}
+nav .nav-item .nav-link.active,
+nav .nav-item .nav-link:hover{
+  color: var(--main-clr) !important;
+  border: .079rem solid var(--main-clr);
+  border-radius: 2.5rem;
+}
+
+.row .form input{
+  border: none;
+  caret-color: #009AD8;
+}
+.row .form input:focus{
+  outline: none;
+}
+.row .form button{
+  background-color: #009AD8;
+}
+
+
+.card .card-body span{
+  font-size: .8rem;
+}
+.card .card-body span img{
+  width: 1rem;
+}
+
+.card .col-md-4 .numTemperature{
+  font-size: 3rem;
+}
+
+#main-section{
+  background-image: url(../images/banner.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+footer{
+  background-color: #262936;
+}
+footer .fa-ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-clr);
+  color: var(--main-clr);
+  transition: .6s;
+}
+footer .fa-ul li a:hover{
+  background-color: #009AD8;
+  color: #fff;
+}

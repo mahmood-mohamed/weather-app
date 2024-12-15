@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 11 | Weather App</title>
+    <!-- Favicon Img -->
+    <link rel="shortcut icon" href="images/logo@2x.png" type="image/x-icon">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome File -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container py-3">
+        <a class="navbar-brand d-flex" href="#" title="Weather">
+          <img src="images/logo@2x.png" class="pe-1" alt="img logo-Weather">
+          <div class="ps-1">
+            <h1 class="h6 m-0 p-0 roboto-bold">Weather</h1>
+            <p class="p-0 m-0 roboto-light">tagline goes here</p>
+          </div>
+        </a>
+        <button class="navbar-toggler bg-white fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-danger"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-section" >
+      <section class="container py-5">
+        <div class="row">
+          <div class="col">
+            <div class="form d-flex bg-clr rounded-5">
+              <input type="text" class="w-100 ps-3 rounded-5 rounded-end-0 bg-clr text-white" id="cityNameInput" placeholder="Find your location..." />
+              <button class="btn btn-info rounded-5 m-1 ms-0 px-3 text-white" type="button" id="btnFind">Find</button>
+            </div>
+          </div>
+        </div>
+  
+        <div id="main-content" class="row my-3 my-md-5 gy-3 g-md-0 rounded-3 overflow-hidden">
+            
+  
+        </div>
+  
+      </section>
+    </main>
+    
+
+    <footer>
+      <div class="row container mx-auto py-5">
+        <div class="col-md-8">
+          <div class="form d-flex bg-clr rounded-5">
+            <input type="email" class="w-100 ps-3 rounded-5 rounded-end-0 bg-clr text-white" id="emailInput" placeholder="Find your email to subscribe..." />
+            <button class="btn btn-info rounded-5 m-1 ms-0 px-3 text-white" type="button" id="btnSubmit">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="fa-ul d-flex align-items-center gap-5 pt-2">
+            <li><a href="#" title="Facebook" class="fa-li"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#" title="Twitter" class="fa-li"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#" title="Google+" class="fa-li"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            <li><a href="#" title="Pinterest" class="fa-li"><i class="fa-brands fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <p class="text-clr pt-4 small">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/signup.js"></script> -->
+  </body>
+</html>
